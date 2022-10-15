@@ -21,6 +21,8 @@ public class FigureEditor
     public FigureEditor() {
 	super();
 
+
+	// sets a new JFrame with a dimension
 	this.gui = new JFrame();
 	this.gui.setTitle("Figure editor");
         this.gui.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

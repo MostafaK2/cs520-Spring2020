@@ -37,6 +37,7 @@ public class FigureController
 	}
     }
 
+	// changes the image
     public void changeImage() {
 	JFileChooser fileChooser = new JFileChooser();
 	FileNameExtensionFilter filter = new FileNameExtensionFilter("JPG & GIF Images", "jpg", "gif");
@@ -62,6 +63,7 @@ public class FigureController
 	}
     }
 
+	// edits the caption and sets it to the caption field
     public void editCaption() {
 	String newCaption = JOptionPane.showInputDialog("New caption");
 	System.out.println("New caption: " + newCaption);
